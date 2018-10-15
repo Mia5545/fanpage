@@ -1,13 +1,15 @@
 html {
     height: 100%;
+    
 }
 
 body {
     height: 100%;
+    background-color: #EE9A74;
     
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .main {
@@ -16,4 +18,12 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    justify-content: center;
 }
