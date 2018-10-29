@@ -10,10 +10,19 @@ body {
 }
 a {
     text-decoration: underline;
-}
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: #FBC
+    font-family: 'Lora', serif;
+    border: 10px dotted #8A9189;
+    margin: 15%;
+    padding: 40px;
+}S
 
 .main {
     height: 100%;
+    
 }
 .social-image{
     width: 30px;
@@ -26,4 +35,7 @@ a {
 .header{
     display: flex;
     justify-content: center;
+    font-size: 40px;
+    font-family: 'Spicy Rice', cursive;
+    border: 15px solid #CCC7A4;
 }
